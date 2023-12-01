@@ -8,8 +8,8 @@ If a company has, lets say three lots of land. The company has two parking lots 
 ### The Spot
 The whole system comes down to two separate entities, the spot and the lot. The individual spot houses almost all of the information necessary for the whole project.
 The spot houses:
-      - Name: string for identification purposes (name stucture is "elevation-group-row-spot" ex: "1-1-1-21"),
-      - isOpen: a boolean to see if the spot is currently in use (cannot track time used if we try to use a spot and it is already used),
+      * Name: string for identification purposes (name stucture is "elevation-group-row-spot" ex: "1-1-1-21"),
+      * isOpen: a boolean to see if the spot is currently in use (cannot track time used if we try to use a spot and it is already used),
       - start: a starting time (total time used is measure by taking the time now minus the time taken),
       - total time taken: for how used is a particular spot,
       - time taken per year: to measure efficiency by dividing the time taken by the time in a year,
