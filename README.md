@@ -8,13 +8,13 @@ If a company has, lets say three lots of land. The company has two parking lots 
 ### The Spot
 The whole system comes down to two separate entities, the spot and the lot. The individual spot houses almost all of the information necessary for the whole project.
 The spot houses:
-      * Name: string for identification purposes (name stucture is "elevation-group-row-spot" ex: "1-1-1-21"),
-      * isOpen: a boolean to see if the spot is currently in use (cannot track time used if we try to use a spot and it is already used),
-      - start: a starting time (total time used is measure by taking the time now minus the time taken),
-      - total time taken: for how used is a particular spot,
-      - time taken per year: to measure efficiency by dividing the time taken by the time in a year,
-      - time taken per month: same concept as the per year,
-      - efficiency per month: the product of the math per month,
+      - Name: string for identification purposes (name stucture is "elevation-group-row-spot" ex: "1-1-1-21")
+      - isOpen: a boolean to see if the spot is currently in use (cannot track time used if we try to use a spot and it is already used)
+      - start: a starting time (total time used is measure by taking the time now minus the time taken)
+      - total time taken: for how used is a particular spot
+      - time taken per year: to measure efficiency by dividing the time taken by the time in a year
+      - time taken per month: same concept as the per year
+      - efficiency per month: the product of the math per month
       - efficiency per year: the prdocut of the math per year
 
 Given the analytics of getting the information per spot we can paint a bigger picture of a parking spots use. We can then find out if a parking spot has a spot that is taken less than three percent of the time. If a parking lot is a parking garage we can change the spot elevation to correspond to it's level.
